@@ -16,6 +16,9 @@ const Walter = {
 };
 ```
 
+<a href="https://linkedin.com/in/walter-shewmake"><img src="https://img.shields.io/badge/LinkedIn-walter--shewmake-blue"/></a>
+<a href="https://www.walterjs.dev/"><img src="https://img.shields.io/badge/Website-www.walterjs.dev-red"/></a>
+
 <a href="https://www.typescriptlang.org/" title="Typescript"><img src="https://github.com/get-icon/geticon/raw/master/icons/typescript-icon.svg" alt="Typescript" width="40px" height="40px"></a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript"><img src="https://github.com/get-icon/geticon/raw/master/icons/javascript.svg" alt="JavaScript" width="40px" height="40px"></a>
 <a href="https://reactjs.org/" title="React"><img src="https://github.com/get-icon/geticon/raw/master/icons/react.svg" alt="React" width="40px" height="40px"></a>
