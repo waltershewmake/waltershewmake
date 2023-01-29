@@ -38,3 +38,6 @@ const Walter = {
 
 | <a href="https://github.com/waltershewmake"><img align="center" src="https://github-readme-stats.vercel.app/api?username=waltershewmake&count_private=true&hide=contribs,prs,issues&show_icons=true&theme=tokyonight" alt="Walter's GitHub stats" /></a> | <a href="https://github.com/waltershewmake"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=waltershewmake&theme=tokyonight&layout=compact" alt="Top Languages"/></a> |
 | ------------- | ------------- |
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
