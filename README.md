@@ -44,5 +44,3 @@ const Walter = {
 
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
-
-<script src="https://embed.github.com/view/3d/waltershewmake/waltershewmake/<ref>/<path_to_file>"></script>
