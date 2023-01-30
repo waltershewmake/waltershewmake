@@ -7,7 +7,13 @@ const Walter = {
   intern: "beatBread",
   activity: "homework 🥲",
   in: "fullstack web and native in TypeScript",
-  currently: "Working on a new SaaS startup for web developers 💪",
+  currently: {
+    workingOn: [
+      "A new SaaS startup for web developers 👨‍💻",
+      "An app for my school wrestling team 💪"
+    ],
+    attending: ["Snow Canyon High School - Sophomore", "Utah Tech University - Concurrent Enrollment"]
+  },
   findMeHere: [
     { discord: "WalterJS#2477" },
     { linkedin: "linkedin.com/in/walter-shewmake" },
