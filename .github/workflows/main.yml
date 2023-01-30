@@ -8,6 +8,7 @@ on:
 
 jobs:
   update-readme:
+    permissions: write-all
     name: Update this repo's README
     runs-on: ubuntu-latest
     steps:
