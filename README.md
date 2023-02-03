@@ -1,5 +1,5 @@
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=waltershewmake)
-
+[![wakatime](https://wakatime.com/badge/user/633611a5-2410-4a66-96ad-ce6a6df384d0.svg)](https://wakatime.com/@633611a5-2410-4a66-96ad-ce6a6df384d0)
 ```js
 const Walter = {
   greetings: "welcome to my profile 👋",
@@ -47,6 +47,11 @@ const Walter = {
 
 | <a href="https://github.com/waltershewmake"><img align="center" src="https://github-readme-stats.vercel.app/api?username=waltershewmake&count_private=true&hide=contribs,prs,issues&show_icons=true&theme=tokyonight" alt="Walter's GitHub stats" /></a> | <a href="https://github.com/waltershewmake"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=waltershewmake&theme=tokyonight&layout=compact" alt="Top Languages"/></a> |
 | ------------- | ------------- |
+
+📊 &nbsp;**This week I spent my time on**
+
+<!--![Wwakatime stats](https://github-readme-stats-taupe-two.vercel.app/api/wakatime?username=waltershewmake&hide_title=true&hide_border=true&langs_count=5&bg_color=00000000&text_color=777)-->
+
 
 <!--START_SECTION:waka-->
 
