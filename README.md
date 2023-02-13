@@ -56,11 +56,12 @@ const Walter = {
 <!--START_SECTION:waka-->
 
 ```text
-TypeScript   12 hrs 50 mins  ███████████████████░░░░░░   75.44 %
-Python       2 hrs 2 mins    ███░░░░░░░░░░░░░░░░░░░░░░   11.98 %
-JSON         1 hr 45 mins    ██▓░░░░░░░░░░░░░░░░░░░░░░   10.36 %
-JavaScript   7 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.70 %
-Other        5 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.57 %
+From: 29 January 2023 - To: 12 February 2023
+
+TypeScript   37 hrs 32 mins  ████████████████████▒░░░░   80.90 %
+JSON         3 hrs 13 mins   █▓░░░░░░░░░░░░░░░░░░░░░░░   06.93 %
+Python       2 hrs 38 mins   █▒░░░░░░░░░░░░░░░░░░░░░░░   05.70 %
+Other        1 hr 13 mins    ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.64 %
 ```
 
 <!--END_SECTION:waka-->
