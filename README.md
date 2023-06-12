@@ -50,7 +50,7 @@ const Walter = {
 
 📊 &nbsp;**Coding Stats**
 
-<!--![Wwakatime stats](https://github-readme-stats-taupe-two.vercel.app/api/wakatime?username=waltershewmake&hide_title=true&hide_border=true&langs_count=5&bg_color=00000000&text_color=777)-->
+<!--![Wwakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=waltershewmake&hide_title=true&hide_border=true&langs_count=5&bg_color=00000000&text_color=777)-->
 
 
 <!--START_SECTION:waka-->
