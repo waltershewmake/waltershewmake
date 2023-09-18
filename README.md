@@ -1,4 +1,3 @@
-#![visitors](https://visitor-badge.glitch.me/badge?page_id=waltershewmake)
 [![wakatime](https://wakatime.com/badge/user/633611a5-2410-4a66-96ad-ce6a6df384d0.svg)](https://wakatime.com/@633611a5-2410-4a66-96ad-ce6a6df384d0)
 ```js
 const Walter = {
@@ -44,9 +43,6 @@ const Walter = {
 <a href="https://www.adobe.com/products/premiere.html" title="Adobe Premiere Pro"><img src="https://github.com/get-icon/geticon/raw/master/icons/adobe-premiere_pro.svg" alt="Adobe Premiere Pro" width="40px" height="40px"></a>
 <a href="https://www.adobe.com/products/aftereffects.html" title="Adobe After Effects"><img src="https://github.com/get-icon/geticon/raw/master/icons/adobe-after_effects.svg" alt="Adobe After Effects" width="40px" height="40px"></a>
 <a href="https://www.adobe.com/products/illustrator.html" title="Adobe Illustrator"><img src="https://github.com/get-icon/geticon/raw/master/icons/adobe-illustrator.svg" alt="Adobe Illustrator" width="40px" height="40px"></a>
-
-#| <a href="https://github.com/waltershewmake"><img align="center" src="https://github-readme-stats.vercel.app/api?username=waltershewmake&count_private=true&hide=contribs,prs,issues&show_icons=true&theme=tokyonight" alt="Walter's GitHub stats" /></a> | <a href="https://github.com/waltershewmake"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=waltershewmake&theme=tokyonight&layout=compact" alt="Top Languages"/></a> |
-#| ------------- | ------------- |
 
 📊 &nbsp;**Coding Stats**
 
