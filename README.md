@@ -3,15 +3,18 @@
 const Walter = {
   greetings: "welcome to my profile 👋",
   name: "Walter Shewmake",
-  intern: "beatBread",
+  work: "beatBread",
   activity: "homework 🥲",
-  in: "fullstack web and native in TypeScript",
+  in: "fullstack web and native in TypeScript & Next.js",
   currently: {
     workingOn: [
       "A new SaaS startup for web developers 👨‍💻",
-      "An app for my school wrestling team 💪"
+      "A budgeting app startup 🤑",
     ],
-    attending: ["Snow Canyon High School - Sophomore", "Utah Tech University - Concurrent Enrollment"]
+    attending: [
+      "Snow Canyon High School - Junior",
+      "Utah Tech University - Concurrent Enrollment"
+    ]
   },
   findMeHere: [
     { discord: "WalterJS#2477" },
