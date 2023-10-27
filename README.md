@@ -10,6 +10,7 @@ const Walter = {
     workingOn: [
       "A new SaaS startup for web developers 👨‍💻",
       "A budgeting app startup 🤑",
+      "school 🤬"
     ],
     attending: [
       "Snow Canyon High School - Junior",
