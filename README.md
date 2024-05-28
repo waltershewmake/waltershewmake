@@ -7,11 +7,6 @@ const Walter = {
   activity: "homework 🥲",
   in: "fullstack web and native in TypeScript & Next.js",
   currently: {
-    workingOn: [
-      "A new SaaS startup for web developers 👨‍💻",
-      "A budgeting app startup 🤑",
-      "school 🤬"
-    ],
     attending: [
       "Snow Canyon High School - Junior",
       "Utah Tech University - Concurrent Enrollment"
