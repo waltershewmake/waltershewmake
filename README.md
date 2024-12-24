@@ -51,15 +51,15 @@ const Walter = {
 <!--START_SECTION:waka-->
 
 ```txt
-From: 29 January 2023 - To: 22 December 2024
+From: 29 January 2023 - To: 23 December 2024
 
-Total Time: 1,797 hrs 54 mins
+Total Time: 1,802 hrs 46 mins
 
-TypeScript         1,308 hrs 49 mins██████████████████░░░░░░░   71.49 %
-Python             160 hrs 51 mins ██▒░░░░░░░░░░░░░░░░░░░░░░   08.79 %
-JSON               81 hrs 40 mins  █░░░░░░░░░░░░░░░░░░░░░░░░   04.46 %
-JavaScript         74 hrs 42 mins  █░░░░░░░░░░░░░░░░░░░░░░░░   04.08 %
-Other              32 hrs 53 mins  ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.80 %
+TypeScript         1,311 hrs 35 mins██████████████████░░░░░░░   71.44 %
+Python             160 hrs 51 mins ██▒░░░░░░░░░░░░░░░░░░░░░░   08.76 %
+JSON               83 hrs 7 mins   █░░░░░░░░░░░░░░░░░░░░░░░░   04.53 %
+JavaScript         74 hrs 48 mins  █░░░░░░░░░░░░░░░░░░░░░░░░   04.07 %
+Other              33 hrs 2 mins   ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.80 %
 ```
 
 <!--END_SECTION:waka-->
