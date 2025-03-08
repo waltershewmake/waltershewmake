@@ -8,7 +8,7 @@ const Walter = {
   in: "fullstack web and native in TypeScript & Next.js",
   currently: {
     attending: [
-      "Snow Canyon High School - Junior",
+      "Snow Canyon High School - Senior",
       "Utah Tech University - Concurrent Enrollment"
     ]
   },
