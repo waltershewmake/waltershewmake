@@ -26,7 +26,7 @@ const Walter = {
 <!--START_SECTION:waka-->
 
 ```txt
-From: 29 January 2023 - To: 25 May 2025
+From: 29 January 2023 - To: 26 May 2025
 
 Total Time: 2,303 hrs 49 mins
 
