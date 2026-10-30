@@ -8,13 +8,23 @@ on:
 
 jobs:
   update-readme:
-    permissions: write-all
+    permissions:
+      contents: write
     name: Update this repo's README
     runs-on: ubuntu-latest
     steps:
-      - uses: athul/waka-readme@master
+      - name: Check WakaTime OAuth token is configured
+        env:
+          WAKATIME_OAUTH_TOKEN: ${{ secrets.WAKATIME_OAUTH_TOKEN }}
+        run: |
+          if [ -z "$WAKATIME_OAUTH_TOKEN" ]; then
+            echo "::error::Set the WAKATIME_OAUTH_TOKEN Actions secret. See .github/WAKATIME.md."
+            exit 1
+          fi
+      - uses: athul/waka-readme@8991b596d85696d98ea96f775390a1bbe266c8c9
         with:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          # The action keeps this input name for compatibility; supply an OAuth token.
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_OAUTH_TOKEN }}
           TIME_RANGE: all_time
-          SHOW_TITLE: true 
+          SHOW_TITLE: true
           SHOW_TOTAL: true
