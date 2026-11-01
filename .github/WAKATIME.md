@@ -1,17 +1,25 @@
 # WakaTime README updater
 
 The `Waka Readme` workflow refreshes the profile's all-time language graph daily
-at 00:00 UTC, or when run manually. It needs a WakaTime personal OAuth token.
+at 00:00 UTC, or when run manually. It needs a WakaTime OAuth token.
 Plugin API keys are write-only and cannot be used to read coding statistics.
 
 ## Credential setup
 
 Complete this before merging the OAuth migration:
 
-1. Open [WakaTime's personal OAuth token page](https://wakatime.com/oauth).
-   Authorize read access to coding statistics (`read_stats`). The updater reads
-   `/api/v1/users/current/stats/all_time`; it does not need write, email, or
-   organization access. Check the permissions shown before authorizing.
+1. To limit access to statistics, register a dedicated
+   [WakaTime OAuth app](https://wakatime.com/apps) and use the documented
+   [authorization-code flow](https://wakatime.com/developers#authentication)
+   with `scope=read_stats` and `response_type=code`. Check the consent screen
+   before authorizing, then exchange the code for an access token securely.
+   The updater reads `/api/v1/users/current/stats/all_time`; it does not need
+   write, email, or organization access.
+
+   WakaTime's simpler [personal token page](https://wakatime.com/oauth) supplies
+   broader access to email, summaries, stats, goals, organizations, and coding
+   activity. It does not offer a scope selector. Do not treat that token as a
+   `read_stats`-only grant or install it without approval for those permissions.
 2. Save the token directly as the repository Actions secret
    `WAKATIME_OAUTH_TOKEN` in
    [this repository's secrets settings](https://github.com/waltershewmake/waltershewmake/settings/secrets/actions).
@@ -31,8 +39,8 @@ grants its GitHub token only `contents: write`, which it uses to update the
 README. No separate GitHub personal access token is needed.
 
 If WakaTime returns 401 or 403, check that the OAuth grant is active and includes
-stats access, then replace the Actions secret if necessary. Use the personal
-token flow above; the generic implicit OAuth flow (`response_type=token`)
+stats access, then replace the Actions secret if necessary. Use the
+authorization-code flow above; the implicit OAuth flow (`response_type=token`)
 expires after 12 hours and is unsuitable for this daily job.
 
 ## References
